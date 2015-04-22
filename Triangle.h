@@ -34,7 +34,7 @@ public:
 
 	double GetArea()
 	{
-		double p = (a + b + c) / 2;
+		double p = (a + b + c) / 2.0;
 		double Area = (p * (p - a) * (p - b) * (p - c));
 		double result = sqrt(static_cast<double>(Area));
 		return result;

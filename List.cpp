@@ -65,9 +65,9 @@ void List::InsertInOrder(Node* node)
     }
 }
 
-bool isEqual(double i, double j)
+bool List::isEqual(double i, double j)
 {
-    const double dEpsilon = 0.0005;
+    const double dEpsilon = 0.0001;
 	double x = fabs(i - j);
 	double y = dEpsilon * fabs(i);
 	if (x <= y)

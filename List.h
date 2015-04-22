@@ -18,4 +18,6 @@ public:
     void InsertInOrder(Node* node);
     Node* Search(double match);
 	Node *head;
+private:
+	bool isEqual(double i, double j);
 };
